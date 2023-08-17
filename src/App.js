@@ -31,7 +31,7 @@ function App() {
                 qrValue.txt_qr_text && 
                   <>
                     <div style={{ height: "auto", margin: "0 auto", maxWidth: 200, width: "100%" }}>
-                      <QRCode value={qrValue.txt_qr_text} logoImage={qrValue.txt_qr_logo ? qrValue.txt_qr_logo : ""} removeQrCodeBehindLogo={false} logoWidth={50} logoHeight={50} qrStyle={"squares"} eyeRadius={"CornerRadii"}/>
+                      <QRCode value={qrValue.txt_qr_text} logoImage={qrValue.txt_qr_logo ? qrValue.txt_qr_logo : ""} removeQrCodeBehindLogo={true} logoWidth={50} logoHeight={50} qrStyle={"squares"} eyeRadius={"CornerRadii"}/>
                     </div>
                     <button className="btn btn-primary shadow-none" >Download</button>
                   </>
